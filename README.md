@@ -8,11 +8,10 @@ app that will help us!
 Please upload your app to Github and email sunrue@springbot.com with a link to your public repository before 8:00 p.m. on Thursday, 10/23.
 
 ## Requirements
-* We need some way to add new restaurants to our app's database
-* There needs to be a way to give each restaurant an overall rating on a scale
+* We need a way to add new restaurants to our app's database
+* We need to be able to give each restaurant an overall rating on a scale
    of 1-5, with 1 being the lowest and 5 the highest.
-* There should be some way for us to mark the last time we have visited
-   the restaurant
+* We need to be able to mark the last time we have visited the restaurant
 * When we visit the root url of the app, we want to be told what restaurant we
    should go to today. That restaurant should be chosen based on a combination
    of how much we like the restaurant and the last time we have been there. It
