@@ -27,3 +27,6 @@ Please upload your app to Github and email sunrue@springbot.com with a link to y
   If you choose to do this please use the average rating for a restaurant
   when picking where we eat today. Fair is fair.
 * More bonus points if you send us a link to your app, live on Heroku (https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
+
+## Evaluation:
+We will be checking your app for functionality, code readability, and presence of (but not necessarily quality of) tests.
