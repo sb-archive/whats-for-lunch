@@ -1,14 +1,14 @@
 Springbot Coding Challenge
 ==========================
 
-We at Springbot don't know where to eat lunch. Please build us a Ruby on Rails
-app that will help us!
-
 ## Submission Instructions:
 Please upload your app to Github and email sunrue@springbot.com with a link to your public repository before 8:00 p.m. on Thursday, 10/23.
 
+We at Springbot don't know where to eat lunch. Please build us a Ruby on Rails
+app that will help us!
+
 ## Requirements:
-* We need some way to create new restaurants
+* We need some way to add new restaurants to our database
 * There needs to be a way to give each restaurant an overall rating on a scale
    of 1-5, with 1 being the lowest and 5 the highest.
 * There should be some way for us to mark the last time we have visited
