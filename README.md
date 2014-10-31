@@ -1,5 +1,5 @@
-Springbot Coding Challenge
-==========================
+What's For Lunch at Springbot?
+==============================
 
 We at Springbot don't know where to eat lunch. Please build us a Ruby on Rails
 app that will help us!
