@@ -19,14 +19,14 @@ app that will help us!
 ## Extra Stuff:
 * The user interface can be as basic as you want it to be; it's an internally
   facing page so no need to spend a lot of time making it pretty.
-* You can code the app with a single user in mind, but bonus points if you
+* Bonus points if you send us a link to your app, live on Heroku (https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
+* You can code the app with a single user in mind, but even more bonus points if you
   write multi-user support in so that different people can rate restaurants.
   If you choose to do this please use the average rating for a restaurant
   when picking where we eat today. Fair is fair.
 
   *PLEASE* do not spend a lot of time with user authentication. All we care about
-  is how you'd structure the model relationships.
-* More bonus points if you send us a link to your app, live on Heroku (https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
+  is how you'd structure the model relationships. 
 
 ## Evaluation:
 We will be checking your app for functionality, code readability, and presence of (but not necessarily quality of) tests.
