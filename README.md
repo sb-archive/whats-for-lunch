@@ -15,10 +15,14 @@ app that will help us!
    is up to you to decide how that's going to happen, but I never want to be told
    to go to the same restaurant two days in a row unless there is only one
    restaurant in the system.
+* You should build the frontend with a library of your choice. Feel free to use
+   third party packages when it simplifies your problem and aids the problem.
+* It needs a well structured UI/UX. No need to worry about the CSS aesthetic but
+   it should be obvious as to what elements do what.
+* As an admin, I want to be able to move the operating day forward and back so
+    we can easily check date logic without using a console.
 
 ## Extra Stuff:
-* The user interface can be as basic as you want it to be; it's an internally
-  facing page so no need to spend a lot of time making it pretty.
 * Bonus points if you send us a link to your app, live on Heroku (https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
 * You can code the app with a single user in mind, but even more bonus points if you
   write multi-user support in so that different people can rate restaurants.
@@ -26,7 +30,7 @@ app that will help us!
   when picking where we eat today. Fair is fair.
 
   *PLEASE* do not spend a lot of time with user authentication. All we care about
-  is how you'd structure the model relationships. 
+  is how you'd structure the model relationships.
 
 ## Evaluation:
 We will be checking your app for functionality, code readability, and presence of (but not necessarily quality of) tests.
