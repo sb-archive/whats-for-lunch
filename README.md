@@ -1,32 +1,39 @@
 What's For Lunch at Springbot?
 ==============================
 
-We at Springbot don't know where to eat lunch. Please build us a Ruby on Rails
-app that will help us!
+We at Springbot don't know where to eat lunch. Please build a program in the
+modern language (Ruby, Python, JavaScript) of your choice that will help tell
+us where we should eat. Ruby is preferred.
+
+Please feel free to use any tools avaiable to you for solving this problem
+with the exception of looking up an answer on the internet. This program does
+not require a UI and can be implemented as a command line tool. Whatever choices
+you make in implementation, please provide a README file on how to operate your
+program.
+
 
 ## Requirements
-* We need a way to add new restaurants to our app's database
-* We need to be able to give each restaurant an overall rating on a scale
-   of 1-5, with 1 being the lowest and 5 the highest.
-* We need to be able to mark the last time we have visited the restaurant
-* When we visit the root url of the app, we want to be told what restaurant we
-   should go to today. That restaurant should be chosen based on a combination
-   of how much we like the restaurant and the last time we have been there. It
-   is up to you to decide how that's going to happen, but I never want to be told
-   to go to the same restaurant two days in a row unless there is only one
-   restaurant in the system.
+* A README explaining how to run your program.
+* A means for adding new springbots and restaurants to a database.
+  We have provided seeds files for your convenience of testing. Feel free to add
+  or remove more examples or other fields to either collection to help improve your
+  algorithm. You may also add any additional collections you deem necessary. For
+  example, you may want a ratings table so each user can rate a restaurant.
+* There should be a means for marking a restaurant as visited today.
+* We want a command that will tell us what restaurant we should go to today. Here
+  are a few rules for your algorithm:
+  * We should not be told to go to a restaurant two days in a row unless there is
+    only one restaurant in the system.
+  * Your algorithm should use recency and rating. Other factors are up to you.
 
-## Extra Stuff:
-* The user interface can be as basic as you want it to be; it's an internally
-  facing page so no need to spend a lot of time making it pretty.
-* Bonus points if you send us a link to your app, live on Heroku (https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
-* You can code the app with a single user in mind, but even more bonus points if you
-  write multi-user support in so that different people can rate restaurants.
-  If you choose to do this please use the average rating for a restaurant
-  when picking where we eat today. Fair is fair.
+### Extra Stuff:
+* A user interface for doing all the operations. Please don't spend too much time on
+  this if at all. We're really interested in your data handling and processing.
 
-  *PLEASE* do not spend a lot of time with user authentication. All we care about
-  is how you'd structure the model relationships. 
+### Evaluation
+We will be checking your program for the following:
+* Functionality
+* Code Readability
+* Tests
 
-## Evaluation:
-We will be checking your app for functionality, code readability, and presence of (but not necessarily quality of) tests.
+Please be ready to discuss your program and all decisions made when you come in next.
